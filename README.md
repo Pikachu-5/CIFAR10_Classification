@@ -3,7 +3,7 @@
 
 
 
-In this repository there is a Jupyter Notebook that shows a built, trained, and fine-tuneed Convolutional neural network for image classification on the CIFAR-10 dataset using TensorFlow and Keras. The model architecture is designed using 3 convolutional blocks followed by a classification head and it has been fine-tuned to achieve around 88% accuracy.
+In this repository there is a Jupyter Notebook that shows a built, trained, and fine-tuneed Convolutional neural network for image classification on the CIFAR-10 dataset using TensorFlow and Keras. The model architecture is designed using 3 convolutional blocks followed by a classification head and it has been fine-tuned to achieve around 88% accuracy. Unfortunately since I don't own an Nvidia GPU, I couldn't use pytorch for training using GPU. So i had to stick with a custom CNN and was also not able to use pre trained models like VGG16, since they required more than a 100epochs to get acceptable accuracy. My machine could process a epoch every 2mins which would take me alot of time to train and fine tune.
 
 
 ## 🧮 Model Architecture
